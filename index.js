@@ -156,9 +156,19 @@ Use the game function below to do the following:
   HINT: While you can complete this with only conditionals based on strings, it may help to equate choice to a number when using Math.random()
 */
 
-function game(user, computer){
-    /*add your code here*/
+function game(){
+  const choice = (Math.floor(Math.random()* 3))
+ if(choice === 0){
+     return 'Rock';
+ }
+ else if(choice === 1){
+     return 'Paper';
+ }
+ else if(choice === 2){
+     return 'Scissors'
+ }
 }
+console.log(game());
   
   
 
