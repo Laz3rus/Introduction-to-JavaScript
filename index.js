@@ -197,9 +197,10 @@ Using the feet function below do the following:
   3. Return number of feet
 */
 
-function feet(/*add your code here*/){
-    /*add your code here*/
-  }
+function lengthTwo(feet){
+  return feet / 30.48;
+}
+console.log(lengthTwo(1))
  
 
 
