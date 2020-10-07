@@ -18,7 +18,11 @@ Do the following:
    HINT: no function required
 */
 
+let votingAge = 20;
 
+if(votingAge > 18){
+    console.log(true)
+}
 
 /*
 Task 1b - Values
@@ -32,7 +36,11 @@ Do the following:
 */
 
 
+let num = 0;
 
+num += 1;
+
+console.log(num);
 
 
 /*
@@ -46,7 +54,9 @@ Do the following:
    HINT: look up the Number method
 */
 
+let year = parseInt("1999");
 
+console.log(year);
 
 
 /*
@@ -58,9 +68,10 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
-  }
+function multiply(a, b){
+  console.log(a * b);
+}
+multiply(5, 6);
 
 
 
