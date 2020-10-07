@@ -241,9 +241,24 @@ Using the grade function below do the following:
    below 60 = F
 */
   
-function grade(/*add your code here*/){
-    /*add your code here*/
+function grading(val){
+  if(val >= 90) {
+      return "A";
   }
+  else if(val >= 80)  {
+    return "B"
+  }
+  else if(val >= 70)  {
+    return "C"
+  }
+  else if(val >= 60)  {
+    return "D"
+  }
+  else{
+    return "F"
+  }
+}
+console.log(grading(85));
   
   
   
